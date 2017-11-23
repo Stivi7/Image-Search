@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'imgurpython',
-    # 'rest_framework',
+    'rest_framework',
+    'imgurapi.apps.ImgurapiConfig',
 ]
 
 MIDDLEWARE = [
